@@ -41,7 +41,7 @@ for container in containers:
     discount_prices.append(discount_price)
 
 kacamata = pd.DataFrame({
-'Glasses': titles,
+'title': titles,
 'brand_name': brands,
 'price': prices,
 'discount_price': discount_prices,
