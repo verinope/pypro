@@ -47,4 +47,4 @@ kacamata = pd.DataFrame({
 'discount_price': discount_prices,
 })
 
-kacamata
+kacamata.to_csv('kacamata.csv')
